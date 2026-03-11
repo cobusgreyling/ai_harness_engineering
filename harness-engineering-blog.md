@@ -1,3 +1,5 @@
+![Hero](images/01-hero.png)
+
 # The Rise of AI Harness Engineering
 
 **AI Agents needed SDKs, then Frameworks, then Scaffolding. Now they need a Harness.**
@@ -26,6 +28,8 @@ It manages the full lifecycle…tools, memory, retries, human approvals, context
 
 [Philipp Schmid](https://www.philschmid.de/agent-harness-2026) put it best with a computer analogy…
 
+![Computer Analogy](images/02-computer-analogy.png)
+
 The model is raw processing capability.
 
 The context window is limited working memory.
@@ -40,6 +44,8 @@ I previously covered [three architectural approaches](https://cobusgreyling.subs
 
 Here is how a harness relates to each.
 
+![Architecture Stack](images/03-architecture-stack.png)
+
 SDKs, Scaffolding and Frameworks answer the question of ***how you build*** an AI Agent.
 
 A Harness answers a different question entirely, *how the agent runs*.
@@ -48,11 +54,15 @@ You can build a harness using any of the three. The harness is not a replacement
 
 ## Four approaches compared
 
+![Four Approaches Compared](images/04-four-approaches.png)
+
 ## Six components of a harness
 
 The [parallel.ai](https://parallel.ai/articles/what-is-an-agent-harness) team identified six core components…
 
 This aligns with what both [OpenAI](https://openai.com/index/harness-engineering/) and [Anthropic](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) have published.
+
+![Six Components](images/05-six-components.png)
 
 ### Tool Integration Layer
 
@@ -110,6 +120,8 @@ Agent definition, message routing, task lifecycle, dependency management, spawni
 
 The remaining 20%: persistence, deterministic replay, cost control, observability, error recovery — is exactly what a harness provides.
 
+![Framework Collapse](images/06-framework-collapse.png)
+
 The framework layer isn't just disappearing. It's splitting. The intelligence moves into the model. The infrastructure moves into the harness.
 
 ## Harness vs Framework
@@ -121,6 +133,8 @@ A harness tells the agent how to operate safely.
 With a framework, the developer writes the orchestration logic.
 
 With a harness, the model makes the plan. The harness keeps it on track.
+
+![Harness vs Framework](images/07-harness-vs-framework.png)
 
 ## Practical Implications
 
