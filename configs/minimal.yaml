@@ -1,0 +1,12 @@
+name: minimal
+tools_enabled: true
+memory_enabled: false
+planner_enabled: false
+verifier_enabled: false
+retry_enabled: false
+guardrails_enabled: false
+persistent_memory: false
+token_budget: 0
+human_approval: false
+sub_agents_enabled: false
+max_retries: 0

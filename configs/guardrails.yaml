@@ -1,0 +1,12 @@
+name: guardrails
+tools_enabled: true
+memory_enabled: true
+planner_enabled: true
+verifier_enabled: true
+retry_enabled: true
+guardrails_enabled: true
+persistent_memory: false
+token_budget: 0
+human_approval: false
+sub_agents_enabled: false
+max_retries: 2

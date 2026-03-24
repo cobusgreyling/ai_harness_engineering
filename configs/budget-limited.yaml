@@ -1,0 +1,12 @@
+name: budget-limited
+tools_enabled: true
+memory_enabled: true
+planner_enabled: true
+verifier_enabled: true
+retry_enabled: true
+guardrails_enabled: false
+persistent_memory: false
+token_budget: 2000
+human_approval: false
+sub_agents_enabled: false
+max_retries: 1
